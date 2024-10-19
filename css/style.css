@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding:0;
+    background-color: black;
+}
+
+.video{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+video{
+    width: 100%;
+    height: 100%;
+}
+
+.popup{
+    width: 500px;
+    height: 75px;
+    background-color: black;
+    position: fixed;
+    top: 250px;
+    border: 2px solid black;
+    color: white;
+    text-align: center;
+    display: none;
+}
+
+.popup h1{
+    font: 0.8rem;
+}
+
+.flex{
+    display: flex;
+    justify-content: center;
+}
+
+.pophead{
+    width: 100%;
+    height: 30px;
+    background-color: rgb(18, 119, 18);
+    color: white;
+}
+
+.pophead p{
+    padding: 5px;
+    background-color: transparent;
+    letter-spacing: 1px;
+    font-size: 1rem;
+    text-align: left;
+}
+
